@@ -18,7 +18,7 @@ L.Icon.Default.mergeOptions({
 })  
 
 const icon = new Icon({
-    iconUrl: "/markerIcon.svg",
+    iconUrl: "markerIcon.svg",
     iconSize: [30, 30]
 });
 
