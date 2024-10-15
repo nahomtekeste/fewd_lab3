@@ -1,6 +1,10 @@
 import React from "react";
-import DisplayFoodItems from "./DisplayFoodItems";
+import Search from "./Search"
 import { items } from "../data/data";
+import Map from "./Map";
+
+
+
 
 const Home = () => {
    return (
@@ -19,7 +23,12 @@ const Home = () => {
       </div>
         <div className="col">
         <h3>Explore our menu ...</h3>
-          <DisplayFoodItems foodList={items} />
+        <Map/>
+        <br></br>
+        <Search details={items}/>
+        <br></br>
+        <br></br>
+          {/* <DisplayFoodItems foodList={items} /> */}
         </div>
       </div>
     </div>
